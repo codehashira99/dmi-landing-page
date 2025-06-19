@@ -1,20 +1,16 @@
 # DMI Landing Page - Hero Section
-(BY ARYAN BODKE)
 
 A modern, animated hero section for Design Made Intelligent (DMI) - recreated from Lovable mockup with smooth animations and responsive design.
 
 ## 🚀 Live Demo
-[View Live Site](https://your-deployment-url.vercel.app)
-
-## 📸 Preview
-![DMI Hero Section](./public/preview.png)
+[View Live Site](https://dmi-landing-page.vercel.app/)
 
 ## ✨ Features
 - **Animated Logo Entry**: Toppling/spinning logo entry animation with GSAP
 - **Smooth Text Animations**: Sequential word appearance with Framer Motion
 - **Interactive CTA Buttons**: Clash animation effect when buttons slide in
 - **Responsive Design**: Optimized for desktop and mobile
-- **Modern Gradient Background**: Black to red to white gradient
+- **Gradient background**: The background has red-pink-white gradient look
 
 ## 🛠️ Tech Stack
 - **Framework**: Next.js 14
@@ -22,12 +18,6 @@ A modern, animated hero section for Design Made Intelligent (DMI) - recreated fr
 - **Animations**: Framer Motion + GSAP
 - **Language**: TypeScript
 - **Deployment**: Vercel
-
-## 🎨 Design Decisions
-- Used **Inter font** for clean, modern typography
-- **Red (#e30613)** as primary accent color matching brand
-- **Smooth animations** with custom easing curves for premium feel
-- **Mobile-first approach** with responsive breakpoints
 
 ## 🚀 Getting Started
 
@@ -69,14 +59,11 @@ A modern, animated hero section for Design Made Intelligent (DMI) - recreated fr
 - **Logo**: 5s spinning entry with GSAP power4.out easing
 - **Text**: Sequential 0.2s delays with easeOut transitions
 - **Buttons**: 2.2s clash animation with custom cubic-bezier curves
-
-
-## 📱 Responsive Breakpoints
-- **Mobile**: < 768px
-- **Desktop**: ≥ 768px
+  
 
 ## 🚀 Deployment
 Deployed on Vercel with automatic deployments from main branch.
 
 ---
 
+-(ARYAN BODKE)
