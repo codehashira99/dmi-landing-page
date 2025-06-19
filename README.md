@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DMI Landing Page - Hero Section
+(BY ARYAN BODKE)
 
-## Getting Started
+A modern, animated hero section for Design Made Intelligent (DMI) - recreated from Lovable mockup with smooth animations and responsive design.
 
-First, run the development server:
+## 🚀 Live Demo
+[View Live Site](https://your-deployment-url.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📸 Preview
+![DMI Hero Section](./public/preview.png)
+
+## ✨ Features
+- **Animated Logo Entry**: Toppling/spinning logo entry animation with GSAP
+- **Smooth Text Animations**: Sequential word appearance with Framer Motion
+- **Interactive CTA Buttons**: Clash animation effect when buttons slide in
+- **Responsive Design**: Optimized for desktop and mobile
+- **Modern Gradient Background**: Black to red to white gradient
+
+## 🛠️ Tech Stack
+- **Framework**: Next.js 14
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion + GSAP
+- **Language**: TypeScript
+- **Deployment**: Vercel
+
+## 🎨 Design Decisions
+- Used **Inter font** for clean, modern typography
+- **Red (#e30613)** as primary accent color matching brand
+- **Smooth animations** with custom easing curves for premium feel
+- **Mobile-first approach** with responsive breakpoints
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/dmi-landing-page.git
+   cd dmi-landing-page
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in browser**
+   ```
+   http://localhost:3000
+   ```
+
+## 📁 Project Structure
+```
+├── app/
+│   ├── page.tsx          # Main page
+│   ├── layout.tsx        # Root layout
+│   └── globals.css       # Global styles
+├── components/
+│   └── Hero.tsx          # Hero section component
+├── public/
+│   └── preview.png       # Preview image
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Animation Details
+- **Logo**: 5s spinning entry with GSAP power4.out easing
+- **Text**: Sequential 0.2s delays with easeOut transitions
+- **Buttons**: 2.2s clash animation with custom cubic-bezier curves
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📱 Responsive Breakpoints
+- **Mobile**: < 768px
+- **Desktop**: ≥ 768px
 
-## Learn More
+## 🚀 Deployment
+Deployed on Vercel with automatic deployments from main branch.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
